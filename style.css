@@ -1,0 +1,39 @@
+body {
+    font-family: Poppins;
+    background: #101e44;
+}
+
+.board {
+    height: calc(90vh + 6px);
+    width: calc(90vh + 6px);
+    margin: auto;
+    background-color: #f343e187;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 5vh;
+}
+
+.tile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    width: 30vh;
+    cursor: pointer;
+    font-size: 100px;
+    border: 1px solid white;
+    color: #e9e9e9;
+}
+
+.stroke {
+    height: 95vh;
+    width: 15px;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 3;
+    margin: auto;
+    background-color: gray;
+    top: 2.5vh;
+    display: none;
+}
